@@ -1,0 +1,707 @@
+{
+ "Other vegetables": [
+  {
+   "code": "5060419860126",
+   "name": "Riced cauliflower & broccoli",
+   "brand": "Full Green",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/506/041/986/0126/front_en.18.400.jpg"
+  },
+  {
+   "code": "5057753917012",
+   "name": "Chicken, Broccoli and Almond Salad",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "eggs",
+    "gluten",
+    "mustard",
+    "nuts",
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/775/391/7012/front_en.3.400.jpg"
+  },
+  {
+   "code": "20165079",
+   "name": "British carrots",
+   "brand": "oaklands",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/20165079/front_en.23.400.jpg"
+  },
+  {
+   "code": "03318003",
+   "name": "Broccoli",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/03318003/front_en.5.400.jpg"
+  },
+  {
+   "code": "01257090",
+   "name": "TENDERSTEM BROCCOLI",
+   "brand": "Sainsbury's",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/01257090/front_en.3.400.jpg"
+  },
+  {
+   "code": "4056489749981",
+   "name": "Country mixed vegetables",
+   "brand": "Freshona",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/405/648/974/9981/front_en.30.400.jpg"
+  }
+ ],
+ "Other: Vegetables and vegetable products and dishes": [
+  {
+   "code": "5056053305802",
+   "name": "Vegetable soup",
+   "brand": "New Covent Garden",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "celery",
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/605/330/5802/front_en.3.400.jpg"
+  },
+  {
+   "code": "5060262489598",
+   "name": "vegetable fusion gyoza",
+   "brand": "itsu",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "gluten",
+    "sesame-seeds",
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/506/026/248/9598/front_en.29.400.jpg"
+  },
+  {
+   "code": "5056053308780",
+   "name": "Moroccan vegetable tagine soup",
+   "brand": "Yorkshire provender",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "celery",
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/605/330/8780/front_en.3.400.jpg"
+  },
+  {
+   "code": "0071106061844",
+   "name": "Stagg Chili Vegetable & Bean Chili Medium",
+   "brand": "Hormel Foods",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/007/110/606/1844/front_en.19.400.jpg"
+  },
+  {
+   "code": "00623711",
+   "name": "Classic Vegetable Sushi",
+   "brand": "Marks & Spencer",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/00623711/front_en.3.400.jpg"
+  },
+  {
+   "code": "5000116109357",
+   "name": "Creamy cheese vegetable penne pasta",
+   "brand": "Birds Eye",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "gluten",
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/011/610/9357/front_en.10.400.jpg"
+  }
+ ],
+ "Vegetable products and dishes": [
+  {
+   "code": "5011673141537",
+   "name": "Ratatouille Ni\u00e7oise",
+   "brand": "Epicure",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/501/167/314/1537/front_en.3.400.jpg"
+  },
+  {
+   "code": "00858632",
+   "name": "VEGETABLE RATATOUILLE",
+   "brand": "M&S Food",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/00858632/front_fr.4.400.jpg"
+  },
+  {
+   "code": "20291211",
+   "name": "Ratatouille Gem\u00fcseeintopf",
+   "brand": "Duc De Couer",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/20291211/front_en.28.400.jpg"
+  },
+  {
+   "code": "00114356",
+   "name": "Ratatouille proven\u00e7ale",
+   "brand": "by Sainsbury's",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/00114356/front_en.13.400.jpg"
+  },
+  {
+   "code": "20085117",
+   "name": "Ratatouille \u00e0 la proven\u00e7ale",
+   "brand": "Freshona",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "celery",
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/20085117/front_en.42.400.jpg"
+  },
+  {
+   "code": "20184476",
+   "name": "Freshona ratatouille cuisin\u00e9e",
+   "brand": "Freshona",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/20184476/front_en.20.400.jpg"
+  }
+ ],
+ "Baked beans": [
+  {
+   "code": "4088600072517",
+   "name": "Baked Beans",
+   "brand": "BRAMWELLS",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/408/860/007/2517/front_en.36.400.jpg"
+  },
+  {
+   "code": "5052910706706",
+   "name": "Organic Baked Beans",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/505/291/070/6706/front_en.35.400.jpg"
+  },
+  {
+   "code": "5000232902450",
+   "name": "Baked Beans in a Rich, Thick, Tomatoey Sauce",
+   "brand": "Branston",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/500/023/290/2450/front_en.29.400.jpg"
+  },
+  {
+   "code": "01208610",
+   "name": "Baked Beans in tomato sauce",
+   "brand": "Sainsbury\u2019s Organic",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/01208610/front_en.4.400.jpg"
+  },
+  {
+   "code": "20475604",
+   "name": "Baked Beans in a rich tomato sauce",
+   "brand": "NEWGATE",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/20475604/front_en.58.400.jpg"
+  },
+  {
+   "code": "29062140",
+   "name": "Organic Baked Beans in rich tomato sauce",
+   "brand": "M&S",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/29062140/front_en.3.400.jpg"
+  }
+ ],
+ "Potatoes, baked, roast or boiled": [
+  {
+   "code": "5057753303877",
+   "name": "NEW POTATOES",
+   "brand": "THE GROWER'S HARVEST",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/505/775/330/3877/front_en.26.400.jpg"
+  },
+  {
+   "code": "4088600191065",
+   "name": "Small new potatoes",
+   "brand": "Four Seasons",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/408/860/019/1065/front_en.24.400.jpg"
+  },
+  {
+   "code": "00671682",
+   "name": "Baking potatoes",
+   "brand": "Sainsbury's",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/00671682/front_en.66.400.jpg"
+  },
+  {
+   "code": "5057753894245",
+   "name": "Peeled new potatoes",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/505/775/389/4245/front_en.7.400.jpg"
+  },
+  {
+   "code": "01308235",
+   "name": "British Baking Potatoes",
+   "brand": "Saintsbury's",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/01308235/front_en.4.400.jpg"
+  },
+  {
+   "code": "20009878",
+   "name": "New potatoes in water",
+   "brand": "freshona",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/20009878/front_en.22.400.jpg"
+  }
+ ],
+ "Fresh and frozen fruits": [
+  {
+   "code": "5690516915902",
+   "name": "Baked Apples Skyr",
+   "brand": "\u00cdsey Skyr",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "apple",
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/569/051/691/5902/front_en.39.400.jpg"
+  },
+  {
+   "code": "03249659",
+   "name": "Gala apples",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "apple"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/03249659/front_en.43.400.jpg"
+  },
+  {
+   "code": "03249833",
+   "name": "PINK LADY\u00ae APPLES",
+   "brand": "TESCO",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "apple"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/03249833/front_en.36.400.jpg"
+  },
+  {
+   "code": "00455664",
+   "name": "Royal Gala Apples",
+   "brand": "Sainsbury's",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/00455664/front_en.3.400.jpg"
+  },
+  {
+   "code": "03249499",
+   "name": "Granny Smith Apples",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/03249499/front_en.5.400.jpg"
+  },
+  {
+   "code": "4088600190068",
+   "name": "Organic Fairtrade Bananas",
+   "brand": "ALDI",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "banana"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/408/860/019/0068/front_en.5.400.jpg"
+  }
+ ],
+ "Other: Soup": [
+  {
+   "code": "5000157062673",
+   "name": "Cream of Tomato Soup",
+   "brand": "Heinz",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/015/706/2673/front_en.70.400.jpg"
+  },
+  {
+   "code": "5056053305802",
+   "name": "Vegetable soup",
+   "brand": "New Covent Garden",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "celery",
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/605/330/5802/front_en.3.400.jpg"
+  },
+  {
+   "code": "5000157062666",
+   "name": "Heinz Organic Cream Of Tomato Soup 400G",
+   "brand": "Heinz",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [
+    "milk"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/015/706/2666/front_fr.3.400.jpg"
+  },
+  {
+   "code": "00220552",
+   "name": "Spicy Tomato & Lentil Souper Soup",
+   "brand": "M&S Food",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "celery"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/00220552/front_en.47.400.jpg"
+  },
+  {
+   "code": "5000157146816",
+   "name": "Creamy Tomato Soup",
+   "brand": "Heinz",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/500/015/714/6816/front_en.3.400.jpg"
+  },
+  {
+   "code": "5012427073302",
+   "name": "Green lentil & tomato soup",
+   "brand": "Baxters",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [],
+   "image": null
+  }
+ ],
+ "Wheat bread, wholemeal": [
+  {
+   "code": "5010044000251",
+   "name": "Wholemeal Bread",
+   "brand": "Warburtons",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "gluten",
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/501/004/400/0251/front_en.64.400.jpg"
+  },
+  {
+   "code": "20448554",
+   "name": "Strong Wholemeal Bread Flour",
+   "brand": "Belbake",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/20448554/front_en.3.400.jpg"
+  },
+  {
+   "code": "10100925",
+   "name": "Allinson's Scandalous Seeds Wholemeal Bread",
+   "brand": "Allinson's",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "gluten",
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/10100925/front_en.8.400.jpg"
+  },
+  {
+   "code": "5010067372533",
+   "name": "Very Strong Wholemeal Bread Flour",
+   "brand": "Allinson\u2019s",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/501/006/737/2533/front_en.3.400.jpg"
+  },
+  {
+   "code": "00315289",
+   "name": "Sliced wholemeal bread",
+   "brand": "Sainsbury's",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "gluten",
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/00315289/front_en.3.400.jpg"
+  },
+  {
+   "code": "00541343",
+   "name": "Danish-Style Wholemeal Bread Loaf",
+   "brand": "M&S Eat Well",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "gluten",
+    "soybeans"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/00541343/front_en.3.400.jpg"
+  }
+ ],
+ "Oily fish": [
+  {
+   "code": "5000171010025",
+   "name": "Wild Pacific Red Salmon",
+   "brand": "John West",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "fish"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/017/101/0025/front_en.38.400.jpg"
+  },
+  {
+   "code": "00268189",
+   "name": "Honey Smoked Salmon & Lentil Salad",
+   "brand": "Marks & Spencer",
+   "nutriscore": "A",
+   "nova": 4,
+   "allergens": [
+    "eggs",
+    "fish",
+    "milk",
+    "mustard"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/00268189/front_fr.4.400.jpg"
+  },
+  {
+   "code": "5059697737428",
+   "name": "Mackerel In Spring Water",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "fish"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/969/773/7428/front_en.32.400.jpg"
+  },
+  {
+   "code": "5057373699688",
+   "name": "2 Boneless Salmon Fillets",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "fish"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/737/369/9688/front_en.16.400.jpg"
+  },
+  {
+   "code": "4061459749779",
+   "name": "Sardines In Tomato Sauce",
+   "brand": "The Fishmonger",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/406/145/974/9779/front_it.4.400.jpg"
+  },
+  {
+   "code": "4088600107011",
+   "name": "Mackerel Fillets",
+   "brand": "The Fishmonger",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "fish"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/408/860/010/7011/front_en.15.400.jpg"
+  }
+ ],
+ "Breakfast cereals, porridge style, no added sugar": [
+  {
+   "code": "5000108022152",
+   "name": "PORRIDGE OATS",
+   "brand": "QUAKER",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/500/010/802/2152/front_en.61.400.jpg"
+  },
+  {
+   "code": "4088600056135",
+   "name": "Organic Jumbo Porridge Oats",
+   "brand": "Kavanagh's",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/408/860/005/6135/front_en.73.400.jpg"
+  },
+  {
+   "code": "5099801003315",
+   "name": "Organic Porridge Oats",
+   "brand": "Flahavan's",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/509/980/100/3315/front_en.12.400.jpg"
+  },
+  {
+   "code": "4056489825623",
+   "name": "Scottish Porridge Oats",
+   "brand": "Crownfield",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [],
+   "image": "https://images.openfoodfacts.org/images/products/405/648/982/5623/front_en.31.400.jpg"
+  },
+  {
+   "code": "5018374072719",
+   "name": "Tesco Organic Porridge Oats 750G",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 1,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/501/837/407/2719/front_en.9.400.jpg"
+  },
+  {
+   "code": "29310753",
+   "name": "Porridge Traditional Rolled Oats",
+   "brand": "Marks & Spencer",
+   "nutriscore": "A",
+   "nova": null,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/29310753/front_en.3.400.jpg"
+  }
+ ],
+ "Breakfast cereals, with added sugar": [
+  {
+   "code": "5057753158422",
+   "name": "BRAN FLAKES",
+   "brand": "TESCO",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/505/775/315/8422/front_en.22.400.jpg"
+  },
+  {
+   "code": "5000119117342",
+   "name": "Wheat Biscuits",
+   "brand": "Tesco",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/011/911/7342/front_en.11.400.jpg"
+  },
+  {
+   "code": "5010251720072",
+   "name": "All Bran Flakes",
+   "brand": "Morrisons",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/501/025/172/0072/front_en.23.400.jpg"
+  },
+  {
+   "code": "5000169051658",
+   "name": "Essential waitrose wholewheat biscuits",
+   "brand": "Waitrose",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/016/905/1658/front_en.15.400.jpg"
+  },
+  {
+   "code": "00388030",
+   "name": "Wholegrain Bran Flakes",
+   "brand": "Sainsbury's",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/00388030/front_en.3.400.jpg"
+  },
+  {
+   "code": "5000128051019",
+   "name": "Wholewheat Biscuits",
+   "brand": "Co Op",
+   "nutriscore": "A",
+   "nova": 3,
+   "allergens": [
+    "gluten"
+   ],
+   "image": "https://images.openfoodfacts.org/images/products/500/012/805/1019/front_en.3.400.jpg"
+  }
+ ]
+}
