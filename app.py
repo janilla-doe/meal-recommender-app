@@ -67,6 +67,12 @@ div[data-baseweb="input"], div[data-baseweb="select"] > div {border-radius: 12px
 .swipe-card .photo .cap {position: absolute; left: .7rem; bottom: .7rem; background: rgba(0,0,0,.62); color: #fff;
                          font-size: .78rem; font-weight: 700; border-radius: 999px; padding: .25rem .65rem; z-index: 2;}
 .swipe-card .body {padding: 1rem 1.2rem 1.2rem;}
+.st-key-swipe_no_side button, .st-key-swipe_yes_side button {width: 3.6rem; height: 3.6rem; border-radius: 50% !important;
+    padding: 0 !important; font-size: 1.5rem !important; box-shadow: 0 4px 14px rgba(0,0,0,.12);}
+.st-key-swipe_no_side button {background: #fff !important; color: #C62828 !important; border: 1px solid #E0E0E0 !important;}
+.st-key-swipe_yes_side button {background: #2E7D32 !important; color: #fff !important; border: none !important;}
+.st-key-swipe_no_side, .st-key-swipe_yes_side {display: flex; justify-content: center;}
+@media (max-width: 640px) {.st-key-swipe_no_side, .st-key-swipe_yes_side {display: none !important;}}
 .swipe-card .title {font-size: 1.5rem; font-weight: 800; color: #1B1B1B;}
 .swipe-card .chips span {display: inline-block; background: #E8F5E9; color: #1B5E20; border-radius: 999px; padding: .25rem .65rem;
                          margin: .25rem .3rem 0 0; font-size: .85rem; font-weight: 700;}
@@ -523,18 +529,26 @@ elif nav == PAGES[1]:
         reasons = M.why_good(g)
         price_day = float(R["more"][g]) / 100 * M.price(p["scenario"])[M.groups.index(g)]
         examples = ", ".join(pr["name"].title() if pr["name"].isupper() else pr["name"] for pr in prods[:2])
-        html(f'<div class="swipe-count">{sw["i"] + 1} of {len(cands)}</div>'
-             f'<div class="swipe-card" id="swipe-card-{sw["i"]}"><div class="photo">{M.icon(g)}{img}{cap}</div><div class="body">'
-             f'<div class="title">{escape(friendly(g))}</div>'
-             f'<div class="muted">Add about {escape(amount_text(g, R["more"][g]))} a day · about £{price_day:.2f}</div>'
-             f'<div class="chips">' + "".join(f"<span>{escape(r_)}</span>" for r_ in reasons) + '</div>'
-             + (f'<div class="muted" style="margin-top:.5rem">For example: {escape(examples)}</div>' if examples else "")
-             + '</div></div>')
+        html(f'<div class="swipe-count">{sw["i"] + 1} of {len(cands)}</div>')
+        # buttons either side of the card for laptops; hidden on phones, where you swipe instead
+        left, mid, right = st.columns([1, 7, 1], vertical_alignment="center")
+        if left.button("✖", key="swipe_no_side", help="Not for me"):
+            sw["no"].append(g); sw["i"] += 1; st.rerun()
+        if right.button("❤️", key="swipe_yes_side", help="I'd try it"):
+            sw["yes"].append(g); sw["i"] += 1; st.rerun()
+        with mid:
+          html(f'<div class="swipe-card" id="swipe-card-{sw["i"]}"><div class="photo">{M.icon(g)}{img}{cap}</div><div class="body">'
+               f'<div class="title">{escape(friendly(g))}</div>'
+               f'<div class="muted">Add about {escape(amount_text(g, R["more"][g]))} a day · about £{price_day:.2f}</div>'
+               f'<div class="chips">' + "".join(f"<span>{escape(r_)}</span>" for r_ in reasons) + '</div>'
+               + (f'<div class="muted" style="margin-top:.5rem">For example: {escape(examples)}</div>' if examples else "")
+               + '</div></div>')
         c1, c2 = st.columns(2)
         if c1.button("✖ Not for me", width="stretch", key="swipe_no"):
             sw["no"].append(g); sw["i"] += 1; st.rerun()
         if c2.button("❤️ I'd try it", type="primary", width="stretch", key="swipe_yes"):
             sw["yes"].append(g); sw["i"] += 1; st.rerun()
+        st.caption("On a laptop: click ✖ or ❤️ beside the card, or press the ← and → arrow keys.")
         # swipe gestures: drag the card left or right on a phone, or use the arrow keys on a computer
         components.html("""
 <script>
