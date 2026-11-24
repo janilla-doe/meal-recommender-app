@@ -30,7 +30,8 @@ BASE_CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
 html, body, [class*="css"], .stMarkdown, button, input, label {font-family: 'Nunito', system-ui, sans-serif !important;}
 #MainMenu, footer, header [data-testid="stToolbar"], [data-testid="stDecoration"] {visibility: hidden;}
-.block-container {max-width: 680px; padding-top: 1.2rem; padding-bottom: 3rem;}
+header[data-testid="stHeader"] {display: none !important;}
+.block-container {max-width: 680px; padding-top: 2.5rem !important; padding-bottom: 3rem;}
 h1, h2, h3 {color: #1B5E20; font-weight: 800 !important; letter-spacing: -.01em;}
 .stButton > button, .stFormSubmitButton > button {border-radius: 999px !important; padding: .65rem 1rem !important; font-weight: 700 !important;}
 div[data-baseweb="input"], div[data-baseweb="select"] > div {border-radius: 12px !important;}
